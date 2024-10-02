@@ -28,15 +28,16 @@ Prototype implementation on a Picar robot
 
 1. Clone this repository to your Raspberry Pi:
    ```
-   git clone [your-repository-url]
-   cd [your-project-directory]
+   git clone https://github.com/Omobolaji-Adams/Hybrid-Human-Interface.git
+   cd Hybrid-Human-Interface
    ```
 
 2. Install Picar modules:
-   Follow the instructions provided on the Picar website to install the necessary modules.
+   Follow the instructions provided on the [Picar website](https://docs.sunfounder.com/projects/picar-x/en/latest/python/python_start/install_all_modules.html) to install the necessary modules.
 
 3. Install project dependencies:
    ```
+   cd Project
    pip install -r requirements.txt
    ```
 
@@ -78,7 +79,7 @@ Prototype implementation on a Picar robot
 
 3. In the second terminal, navigate to your project directory and run the main script:
    ```
-   cd [your-project-directory]
+   cd Hybrid-Human-Interface/Project
    python3 combined_control.py --use_muse --eeg_model simple_cn_classification_model.tflite --voice_model model_update.tflite
    ```
 
@@ -86,7 +87,7 @@ Prototype implementation on a Picar robot
 
 - Speak voice commands into the USB microphone to control the Picar.
 - The Muse 2 headband will provide additional input for more precise control.
-- Available commands: [List your available voice commands here]
+- Available commands: [start, stop, left, right, faster, slower]
 
 ## Troubleshooting
 
@@ -99,7 +100,6 @@ Prototype implementation on a Picar robot
 
 ## Contributing
 
-[Add information about how others can contribute to your project]
 
 ## License
 
