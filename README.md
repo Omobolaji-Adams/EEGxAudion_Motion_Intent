@@ -1,9 +1,14 @@
-# EEGxAudion_Motion_Intent
+## Hybrid Human-Machine Interface for Enhanced Wheelchair Control
+This project implements a hybrid human-machine interface for enhanced wheelchair control, combining EEG-based motion intent prediction with speech recognition. It utilizes a Muse 2 headband for EEG data and a microphone for voice commands. The system is currently prototyped using a Picar robot on a Raspberry Pi.
 
+## Project Overview
+The goal of this project is to create an intuitive and efficient control system for wheelchairs, enhancing mobility for individuals with limited physical capabilities. By combining EEG signals and voice commands, the system aims to provide a more natural and accessible interface for wheelchair users.
+Key features:
 
-# Raspberry Pi Picar Control Project
-
-This project combines voice commands and EEG signals to control a Picar robot using a Raspberry Pi. It utilizes a USB microphone for audio input and a Muse 2 headband for EEG data.
+EEG-based motion intent prediction using Muse 2 headband
+Speech recognition for voice command input
+Integration of EEG and voice data for enhanced control
+Prototype implementation on a Picar robot
 
 ## Hardware Requirements
 
